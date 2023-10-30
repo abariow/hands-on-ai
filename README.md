@@ -1,2 +1,2 @@
-# hands-on-ait
+# hands-on-ai
 Practice on some datasets.

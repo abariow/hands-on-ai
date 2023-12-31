@@ -39,8 +39,7 @@ for file_name in data_files_names:
     with tarfile.open(DATA_PATH + file_name, 'r:bz2') as f:
         f.extractall(DATA_PATH + file_name.replace('.tar.bz2', ''))
         
-# Removing data files
+# Removing unziped data files
 for file_name in data_files_names:
     print('Removing', file_name)
     os.remove(DATA_PATH + file_name)
-    
